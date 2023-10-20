@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Malef\\OneDrive\\Escritorio\\TPI-Prog3\\TPI-P3-grupal\\TPI-P3-grupal\\TPI-P3-grupal.csproj": {}
+    "C:\\TPI-Programacion3\\TPI-P3-grupal\\TPI-P3-grupal\\TPI-P3-grupal.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Malef\\OneDrive\\Escritorio\\TPI-Prog3\\TPI-P3-grupal\\TPI-P3-grupal\\TPI-P3-grupal.csproj": {
+    "C:\\TPI-Programacion3\\TPI-P3-grupal\\TPI-P3-grupal\\TPI-P3-grupal.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Malef\\OneDrive\\Escritorio\\TPI-Prog3\\TPI-P3-grupal\\TPI-P3-grupal\\TPI-P3-grupal.csproj",
+        "projectUniqueName": "C:\\TPI-Programacion3\\TPI-P3-grupal\\TPI-P3-grupal\\TPI-P3-grupal.csproj",
         "projectName": "TPI-P3-grupal",
-        "projectPath": "C:\\Users\\Malef\\OneDrive\\Escritorio\\TPI-Prog3\\TPI-P3-grupal\\TPI-P3-grupal\\TPI-P3-grupal.csproj",
-        "packagesPath": "C:\\Users\\Malef\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Malef\\OneDrive\\Escritorio\\TPI-Prog3\\TPI-P3-grupal\\TPI-P3-grupal\\obj\\",
+        "projectPath": "C:\\TPI-Programacion3\\TPI-P3-grupal\\TPI-P3-grupal\\TPI-P3-grupal.csproj",
+        "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
+        "outputPath": "C:\\TPI-Programacion3\\TPI-P3-grupal\\TPI-P3-grupal\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Malef\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -56,7 +56,7 @@
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
-              "version": "[6.2.3, )"
+              "version": "[6.5.0, )"
             }
           },
           "imports": [
@@ -78,7 +78,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     }

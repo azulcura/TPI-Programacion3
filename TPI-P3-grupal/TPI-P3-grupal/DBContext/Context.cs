@@ -1,6 +1,9 @@
 ﻿using System.Collections.Generic;
 using System.Reflection.Emit;
 using TPI_P3_grupal.Data.Entities;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Metadata.Builders;
+
 
 namespace TPI_P3_grupal.DBContext
 {
@@ -79,23 +82,14 @@ namespace TPI_P3_grupal.DBContext
                    Name = "Pizza de Pepperoni",
                    Price = "4000"
                },
+              
 
-            modelBuilder.Entity<Product>()   ///CREEMOS QUE NO VA PREGUNTAR
-                .HasMany(su => su.Client)
-                .WithOne(st => st.ProductAttended)
-                .UsingEntity(ri => ri
-                    .ToTable("ClientProduct")
-                    .HasData(new[]
-                     {
-                            new { ClientId = 1, ProductAttendedId = 1},
-                            new { ClientId = 1, ProductAttendedId = 2},
-                     }
-                    )
-                 ),
+            
+        
 
-            modelBuilder.Entity<Client>()
-                .HasMany(sub => sub.Order)
-                .WithOne(pro => pro.Client)
+            modelBuilder.Entity<Order>()
+                .HasOne(sub => sub.Client)
+                .WithMany(pro => pro.OrderAttended)
                 .UsingEntity(j => j
                     .ToTable("ClientOrder")
                     .HasData(new[]
@@ -120,6 +114,7 @@ namespace TPI_P3_grupal.DBContext
                     )),
 
             base.OnModelCreating(modelBuilder);
+            
         }
     }
 }

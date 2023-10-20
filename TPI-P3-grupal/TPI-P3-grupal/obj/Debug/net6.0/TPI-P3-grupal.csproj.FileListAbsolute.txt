@@ -1,0 +1,7 @@
+C:\TPI-Programacion3\TPI-P3-grupal\TPI-P3-grupal\obj\Debug\net6.0\TPI-P3-grupal.csproj.AssemblyReference.cache
+C:\TPI-Programacion3\TPI-P3-grupal\TPI-P3-grupal\obj\Debug\net6.0\TPI-P3-grupal.GeneratedMSBuildEditorConfig.editorconfig
+C:\TPI-Programacion3\TPI-P3-grupal\TPI-P3-grupal\obj\Debug\net6.0\TPI-P3-grupal.AssemblyInfoInputs.cache
+C:\TPI-Programacion3\TPI-P3-grupal\TPI-P3-grupal\obj\Debug\net6.0\TPI-P3-grupal.AssemblyInfo.cs
+C:\TPI-Programacion3\TPI-P3-grupal\TPI-P3-grupal\obj\Debug\net6.0\TPI-P3-grupal.csproj.CoreCompileInputs.cache
+C:\TPI-Programacion3\TPI-P3-grupal\TPI-P3-grupal\obj\Debug\net6.0\TPI-P3-grupal.MvcApplicationPartsAssemblyInfo.cs
+C:\TPI-Programacion3\TPI-P3-grupal\TPI-P3-grupal\obj\Debug\net6.0\TPI-P3-grupal.MvcApplicationPartsAssemblyInfo.cache
